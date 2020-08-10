@@ -1,5 +1,5 @@
 complete<-function(directory,id){
-     my_wd<-paste("C:/Users/hp/Desktop/R_and_Git/R_Programs/R_US_Pollution_Project/",directory,sep="")
+     my_wd<-paste("C:/Users/hp/Desktop/R/R_US_Pollution_Project/",directory,sep="")
      setwd(my_wd)
      comp<-data.frame(id,nobs=vector(mode="integer", length=length(id)))
      j=1;

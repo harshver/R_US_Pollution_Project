@@ -1,7 +1,7 @@
-unzip("C:/Users/hp/Desktop/R_and_Git/R_Programs/R_US_Pollution_Project/rprog_data_specdata.zip", files = NULL, list = FALSE, overwrite = TRUE, junkpaths = FALSE, exdir = ".", unzip = "internal", setTimes = FALSE)
-source('C:/Users/hp/Desktop/R_and_Git/R_Programs/R_US_Pollution_Project/pollutantmean.R')
-source('C:/Users/hp/Desktop/R_and_Git/R_Programs/R_US_Pollution_Project/complete.R')
-source('C:/Users/hp/Desktop/R_and_Git/R_Programs/R_US_Pollution_Project/corr.R')
+## unzip("C:/Users/hp/Desktop/R/R_US_Pollution_Project/rprog_data_specdata.zip", files = NULL, list = FALSE, overwrite = TRUE, junkpaths = FALSE, exdir = ".", unzip = "internal", setTimes = FALSE)
+source('C:/Users/hp/Desktop/R/R_US_Pollution_Project/pollutantmean.R')
+source('C:/Users/hp/Desktop/R/R_US_Pollution_Project/complete.R')
+source('C:/Users/hp/Desktop/R/R_US_Pollution_Project/corr.R')
 directory<-"specdata"
 id<-1:100
 threshold<-400

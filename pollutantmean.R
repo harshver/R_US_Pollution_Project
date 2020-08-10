@@ -1,5 +1,5 @@
 pollutantmean<-function(directory,pollutant,id){
-     my_wd<-paste("C:/Users/hp/Desktop/R_and_Git/R_Programs/R_US_Pollution_Project/",directory,sep="")
+     my_wd<-paste("C:/Users/hp/Desktop/R/R_US_Pollution_Project/",directory,sep="")
      setwd(my_wd)
      dataset<-c()
      
